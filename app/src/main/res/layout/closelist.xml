@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:id="@+id/lv">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_marginLeft="@dimen/_10sdp">
+                <TextView
+                    android:id="@+id/cname1"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Name:"
+                    android:textStyle="italic"
+                    android:textSize="@dimen/_15sdp"/>
+                <TextView
+                    android:id="@+id/tot_amt1"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Amount Rs:"
+                    android:textSize="@dimen/_15sdp"/>
+                <TextView
+                    android:id="@+id/adv_amt1"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Advance Amount Rs:"
+                    android:textSize="@dimen/_15sdp"/>
+                <TextView
+                    android:id="@+id/pay_amt1"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Payable Amount Rs:"
+                    android:textSize="@dimen/_15sdp"/>
+                <TextView
+                    android:id="@+id/ddat"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delivery Date:"
+                    android:textSize="@dimen/_15sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textStyle="italic"
+                    android:textSize="@dimen/_15sdp"/>
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textSize="@dimen/_15sdp"/>
+                <TextView
+                    android:id="@+id/adv"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textSize="@dimen/_15sdp"/>
+                <TextView
+                    android:id="@+id/pay"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textSize="@dimen/_15sdp"/>
+                <TextView
+                    android:id="@+id/dd"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textSize="@dimen/_15sdp"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center"
+
+            >
+
+            <Button
+                android:id="@+id/cl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="close"
+                android:background="@drawable/re"
+                android:textColor="#fff"/>
+            <Button
+                android:id="@+id/cancel"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cancel"
+                android:background="@drawable/re"
+                android:textColor="#fff"/>
+        </LinearLayout>
+</LinearLayout>

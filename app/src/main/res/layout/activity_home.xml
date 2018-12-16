@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <include layout="@layout/report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+    <Button
+            android:id="@+id/order"
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:text="Order"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/re"/>
+            <Button
+                android:id="@+id/close"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:text="Close order"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/re"/>
+        <Button
+            android:id="@+id/bill"
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:text="Last Bill"
+            android:textColor="#fff"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/re"/>
+        <Button
+            android:id="@+id/report"
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:text="Reports"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/re"/>
+    </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

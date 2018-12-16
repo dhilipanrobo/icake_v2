@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Logg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_300sdp"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:orientation="vertical"
+            android:background="@drawable/circle"
+            >
+
+            <EditText
+                android:id="@+id/user"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:ems="10"
+                android:padding="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_80sdp"
+                android:inputType="textPersonName"
+                android:layout_gravity="center"
+                android:hint=" User Name"
+                android:drawableLeft="@drawable/users"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="italic"
+                android:background="@drawable/edt"/>
+            <EditText
+                android:id="@+id/pwd"
+                android:drawableLeft="@drawable/pw"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:ems="10"
+                android:padding="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:inputType="textPassword"
+                android:layout_gravity="center"
+                android:hint=" Password"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="italic"
+                android:background="@drawable/edt"/>
+
+            <Button
+                android:id="@+id/log"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/but"
+                android:text="Login"
+                android:textStyle="italic"
+                android:textColor="#6B3E26"
+                android:textSize="@dimen/_15sdp"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
