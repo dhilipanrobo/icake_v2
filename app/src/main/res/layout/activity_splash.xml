@@ -16,9 +16,16 @@
         >
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             app:srcCompat="@drawable/logo"
             android:layout_gravity="center"/>
+
+        <TextView
+        android:gravity="center"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version 2.O" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
